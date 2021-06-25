@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://devitaldev.github.io/sitemap.xml
