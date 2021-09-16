@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="/discordInvite.css"/>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -57,11 +58,16 @@
 <section class="w3-container w3-center w3-content" style="max-width:600px">
   <h1 class="w3-wide">Let's just play video games!</h1>
   <p class="w3-opacity">There will be some html games here soon &#128521;</p>
-  <div class="container">
-  <!-- <iframe class="responsive-iframe" src="https://discord.com/widget?id=515613202822725633&theme=dark" style="border: none;"></iframe> -->
-  <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2774.874679442467!2d19.16359981557327!3d45.9338044791094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!1s0x0%3A0xb6f4b46316be420c!5e0!3m2!1ssr!2srs!4v1624771544634!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-  </div>
-  <p class="w3-opacity">In the meantime, you can visit us &#9757;</p>
+  <script src="/discordInvite.js"></script>
+  <script>
+    discordInvite.init({
+    inviteCode: 'urG6T9mJJz',
+    title: 'Gaming for Fun',
+    });
+    discordInvite.render();
+  </script>
+  <div id="discordInviteBox"></div>
+  <p class="w3-opacity">In the meantime, Join us on Discord &#9757;</p>
 </section>
 
 <!-- Footer -->
